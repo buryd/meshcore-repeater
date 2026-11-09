@@ -4,7 +4,7 @@ A weatherproof 915 MHz MeshCore repeater for the US and Canada. The radio is the
 
 The “33 cm” figure is the wavelength, about 910 MHz. The antenna itself is about 35–45 cm tall.
 
-Wiring is in [rak-repeater-wiring.jpg](rak-repeater-wiring.jpg).
+Wiring is in [rak-repeater-wiring.jpg](rak-repeater-wiring.jpg). The build order is in [CONSTRUCTION.md](CONSTRUCTION.md).
 
 ## Operating point
 
