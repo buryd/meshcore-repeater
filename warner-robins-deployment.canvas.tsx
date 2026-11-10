@@ -6,17 +6,18 @@ export default function WarnerRobinsDeployment() {
       <Stack gap={6}>
         <H1>Recommended MeshCore repeater plan, Warner Robins, GA</H1>
         <Text tone="secondary">
-          Map snapshot 10 November 2026 from map.meshcore.io. Only uploaded
-          nodes are counted. Every column stays on 910.525 MHz, 62.5 kHz, SF7,
-          coding rate 5. The recommended change is one new repeater. The nodes
-          already on the map stay.
+          Pulled from map.meshcore.io on 10 November 2026, 71,011 uploaded
+          nodes. Centered on 32.621° N, 83.600° W. Repeaters only. Every live
+          node below is on 910.525 MHz, 62.5 kHz, SF7. Coding rate is 5,
+          except K3JSW at 8, which still hears coding rate 5.
         </Text>
       </Stack>
 
-      <Callout tone="success" title="Build one repeater">
-        North of Watson Boulevard, west of the Robins AFB fence, on the
-        Russell Parkway corridor. Antenna above the tree crown. RAK label 001,
-        set tx 16, about 24 dBm, 5 dBi vertical.
+      <Callout tone="success" title="One change: build the city repeater">
+        The pull does not add a repeater in Warner Robins. West and south stay
+        as they are. Build one repeater north of Watson Boulevard, west of the
+        Robins AFB fence, on the Russell Parkway corridor. Antenna above the
+        tree crown. RAK label 001, set tx 16, about 24 dBm, 5 dBi vertical.
       </Callout>
 
       <H2>Plan</H2>
@@ -43,7 +44,7 @@ export default function WarnerRobinsDeployment() {
           ],
           [
             "Recommended change",
-            "None",
+            "None. Do not add another here",
             "None",
             "Build one repeater",
             "Do not add a repeater",
@@ -51,8 +52,8 @@ export default function WarnerRobinsDeployment() {
           ],
           [
             "Place",
-            "5.3–6.7 mi west, about 400 ft",
-            "South of the city, about 300 ft",
+            "5.3–6.7 mi from the city, about 400 ft",
+            "N4ARY 2.3 mi south of the house",
             "Russell Parkway, north of Watson, west of the base",
             "100 Hickory Bend Drive",
             "Past Russell Parkway",
@@ -90,21 +91,24 @@ export default function WarnerRobinsDeployment() {
         framed
         striped
         stickyHeader
-        headers={["Node", "Miles from city", "Direction", "Ground", "Coverage"]}
-        columnAlign={["left", "right", "left", "right", "left"]}
+        headers={["Node", "Miles", "Direction", "From the house", "Last map update", "Role"]}
+        columnAlign={["left", "right", "left", "left", "left", "left"]}
         rows={[
-          ["KR4CDK_CORE", "5.3", "West", "407 ft", "West side"],
-          ["KO4DIE", "6.2", "West", "414 ft", "West side"],
-          ["PolePeter 1W", "6.7", "West", "—", "West side"],
-          ["N4ARY TreeHtrRptr", "6.3", "South", "299 ft", "South end"],
-          ["Shadetree", "7.8", "Southeast", "308 ft", "South end"],
-          ["K3JSW TreeHtr", "9.4", "Southwest", "—", "Far southwest"],
+          ["KR4CDK_CORE", "5.3", "Southwest", "4.8 mi west", "8 Nov 2026", "Live west cluster"],
+          ["KO4DIE Core Repeater", "6.2", "Southwest", "5.8 mi west", "8 Nov 2026", "Live west cluster"],
+          ["KO4DIE Core Repeater", "6.3", "Southwest", "6.1 mi west", "20 Jul 2026", "Stale second pin"],
+          ["N4ARY TreeHtrRptr", "6.3", "South", "2.3 mi south", "2 Nov 2026", "Live south end"],
+          ["KO4AXV PolePeter 1W", "6.7", "West", "7.2 mi west", "2 Nov 2026", "Live west cluster"],
+          ["Shadetree Repeater", "7.8", "Southeast", "4.0 mi southeast", "3 Nov 2026", "Live south end"],
+          ["K3JSW TreeHtr", "9.4", "Southwest", "7.6 mi southwest", "9 Nov 2026", "Live, coding rate 8"],
         ]}
+        rowTone={["neutral", "neutral", "warning", "info", "neutral", "info", "neutral"]}
       />
       <Text tone="tertiary" size="small">
-        City point 32.621° N, 83.600° W, ground about 305 ft. PolePeter and
-        K3JSW elevations were not measured. None of these nodes is at the city
-        point.
+        No repeater is at the city point. The next nodes north are two
+        M4GRY_MAC pins about 16 miles away, and CannonBall274 is about 18
+        miles northeast. Those do not cover Warner Robins. Map:
+        https://map.meshcore.io/?lat=32.621&lon=-83.600&zoom=11
       </Text>
     </Stack>
   );
