@@ -89,3 +89,4 @@ Approximate 2026 US prices, about $290 before the mast and ground rod.
 | Pigtail | 10 cm IPEX to N-female bulkhead, with O-ring | 10 |
 | Antenna | 915 MHz, 5 dBi, N-female, a type listed on the grant | 20 |
 | Install kit | 16 AWG pack leads, 18 AWG panel wire, clamps, tape, desiccant | 28 |
+| **Total** | Before the mast and ground rod | **290** |
