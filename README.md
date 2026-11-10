@@ -4,7 +4,7 @@ A weatherproof 915 MHz MeshCore repeater for the US and Canada. The radio is the
 
 The “33 cm” figure is the wavelength, about 910 MHz. The antenna itself is about 35–45 cm tall.
 
-Wiring is in [rak-repeater-wiring.jpg](rak-repeater-wiring.jpg). The build order is in [CONSTRUCTION.md](CONSTRUCTION.md). The Warner Robins plan is in [DEPLOYMENT.md](DEPLOYMENT.md), with the same tables as [DEPLOYMENT-repeaters.csv](DEPLOYMENT-repeaters.csv) and [DEPLOYMENT-plan.csv](DEPLOYMENT-plan.csv), and in [warner-robins-deployment.canvas.tsx](warner-robins-deployment.canvas.tsx). The handheld companion is in [COMPANION-CONSTRUCTION.md](COMPANION-CONSTRUCTION.md), with its parts in [COMPANION-BOM.md](COMPANION-BOM.md) and its wiring in [diy-companion-wiring.jpg](diy-companion-wiring.jpg).
+Wiring is in [rak-repeater-wiring.jpg](rak-repeater-wiring.jpg). The build order is in [CONSTRUCTION.md](CONSTRUCTION.md). The Warner Robins plan is in [DEPLOYMENT.md](DEPLOYMENT.md), [DEPLOYMENT.xlsx](DEPLOYMENT.xlsx), [DEPLOYMENT-repeaters.csv](DEPLOYMENT-repeaters.csv), [DEPLOYMENT-plan.csv](DEPLOYMENT-plan.csv), and [warner-robins-deployment.canvas.tsx](warner-robins-deployment.canvas.tsx). The handheld companion is in [COMPANION-CONSTRUCTION.md](COMPANION-CONSTRUCTION.md), with its parts in [COMPANION-BOM.md](COMPANION-BOM.md) and its wiring in [diy-companion-wiring.jpg](diy-companion-wiring.jpg).
 
 ## Operating point
 
