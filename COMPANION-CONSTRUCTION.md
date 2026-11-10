@@ -2,20 +2,7 @@
 
 Build the handheld MeshCore client in this order. The wiring drawing is [diy-companion-wiring.jpg](diy-companion-wiring.jpg). The enclosure drawing is [diy-companion-construction.jpg](diy-companion-construction.jpg). This radio is the pocket kit: a XIAO nRF52840 with a Wio-SX1262 seated on it. It is the client for 100 Hickory Bend Drive. It is not the solar repeater. The repeater build is in [CONSTRUCTION.md](CONSTRUCTION.md).
 
-## Bill of materials
-
-Prices are the shelf price on 10 November 2026. Shipping is extra. The blade, pigtail, and box use RP-SMA, so the blade screws onto the bulkhead.
-
-| Item | Specification | Source | USD |
-| --- | --- | --- | ---: |
-| XIAO nRF52840 and Wio-SX1262 kit | Seeed 102010710, 862–930 MHz. Includes a short LoRa antenna. | [Seeed Studio](https://www.seeedstudio.com/XIAO-nRF52840-Wio-SX1262-Kit-for-Meshtastic-p-6400.html) | 13.49 |
-| 915 MHz antenna | RAK blade, RP-SMA plug, 2.3 dBi, PID 926019 | [Rokland](https://store.rokland.com/products/blade-antenna) | 12.97 |
-| Pigtail | IPEX to panel-mount RP-SMA, 15 cm, nut and washer. Adafruit 852. | [Adafruit](https://www.adafruit.com/product/852) | 3.95 |
-| LiPo | 3.7 V, 2000 mAh, 60 × 36 × 7 mm. Adafruit 2011. | [Adafruit](https://www.adafruit.com/product/2011) | 12.50 |
-| Enclosure | Hammond 1593PBK, ABS, 92 × 67 × 28 mm, screw lid | [DigiKey 1593PBK](https://www.digikey.com/en/products/result?keywords=1593PBK) | 7.08 |
-| **Total** | One companion, before shipping | | **49.99** |
-
-The kit’s short antenna stays in the spare-parts bag. The blade is the antenna that mounts outside the box. Cut the JST plug off the Adafruit cell, or solder its leads, only after the meter shows which wire is positive.
+The parts list, with prices and sources, is in [COMPANION-BOM.md](COMPANION-BOM.md).
 
 Fit the antenna before the battery or USB is connected. Finish the flash and hear N4ARY TreeHtrRptr, or confirm the radio is on the US preset, before you button the board into the box.
 
