@@ -11,6 +11,8 @@ Fit the antenna before the battery or USB is connected. Finish the flash and hea
 - USB-C data cable
 - Side cutters and a small pair of tweezers for the IPEX plug
 - Heat-shrink
+- A 6.5 mm drill bit and a small file
+- Screwdriver for the lid
 - MeshCore phone app, and Chrome or Edge for the flasher
 
 ## 1. Incoming check
@@ -21,7 +23,8 @@ Stop and correct the part before wiring if any of these fail.
 2. The LoRa module has an **IPEX** connector. The hardware range printed for this module is **862–930 MHz**.
 3. The cell is one **3.7 V LiPo**, 1000–2000 mAh. The six Samsung 25R cells from the repeater do not connect here. Two cells in series would be 7.4 V.
 4. The whip is **915 MHz**, about 17 cm, with an **RP-SMA** plug. An 868 MHz whip, and an SMA plug on an RP-SMA jack, will not do.
-5. The pigtail is **IPEX to RP-SMA**, about 10 cm. Skip it only when the antenna that came with the kit is already a 915 MHz whip you are willing to use at the window.
+5. The pigtail is **IPEX to RP-SMA bulkhead**, about 10 cm, with a nut and washer. The whip screws onto that bulkhead outside the box.
+6. The enclosure is ABS, about **100 × 60 × 30 mm**, with a screw lid. The stack and the pouch cell have to sit side by side, and the USB-C plug has to reach the XIAO.
 
 ## 2. Stack the radio
 
@@ -68,14 +71,18 @@ The phone app has the same settings when the serial console is not open. `set tx
 3. If it does not, try the same spot for Shadetree Repeater, about 4 miles southeast. N4ARY’s map record was updated on 2 November 2026. A miss can still be a powered-off tree node, a whip aimed into the room, or the radio still on the EU channel.
 4. Confirm `get radio` shows `910.525, 62.5, 7, 5` and the transmit level is 22 before you call the path dead.
 
-## 7. Case
+## 7. Enclosure
 
-Only after the radio has heard a repeater, or you have confirmed the preset and decided to keep testing outdoors.
+Close the radio in the box only after it has heard a repeater, or you have confirmed the preset and decided to keep testing from the south window. The box is part of the finished client. The whip lives outside it.
 
-1. Leave USB reachable.
-2. Keep the IPEX straight. A sharp bend at the plug cracks the receptacle.
-3. The cell sits beside the stack, not under the antenna joint.
-4. No holes are required for weather. This client lives in the house and at the south window. It is not the mast radio.
+1. Drill one hole, about **6.5 mm**, in a short end of the box. Deburr it. That hole is for the RP-SMA bulkhead. The nut and washer go inside.
+2. Cut a slot about **12 × 6 mm** in the opposite end so a USB-C plug reaches the XIAO with the lid closed.
+3. Dry-fit the stack, the cell, and the pigtail before any screw is tightened. The IPEX lead leaves the Wio-SX1262 in a gentle curve. A kink at the plug cracks the receptacle.
+4. Lay the cell flat beside the stack. Tape the leads down, clear of the USB slot and clear of the bulkhead nut.
+5. Seat the bulkhead, tighten the nut, and screw the 915 MHz whip on the outside. The whip is vertical when the box sits on the south windowsill.
+6. Close the lid. Plug USB through the slot and confirm the app still shows `910.525, 62.5, 7, 5` and transmit level 22. Run one more advert toward the south.
+
+This box keeps the cell and the IPEX from being pulled off the bench. It is not the repeater’s weatherproof mast enclosure, and it does not go up the tree.
 
 ## Bare L1 board
 
