@@ -4,7 +4,7 @@ A weatherproof 915 MHz MeshCore repeater for the US and Canada. The radio is the
 
 The “33 cm” figure is the wavelength, about 910 MHz. The antenna itself is about 35–45 cm tall.
 
-Wiring is in [rak-repeater-wiring.jpg](rak-repeater-wiring.jpg). The build order is in [CONSTRUCTION.md](CONSTRUCTION.md). Where to place it in Warner Robins is in [DEPLOYMENT.md](DEPLOYMENT.md). The handheld companion is in [COMPANION-CONSTRUCTION.md](COMPANION-CONSTRUCTION.md), with its parts in [COMPANION-BOM.md](COMPANION-BOM.md) and its wiring in [diy-companion-wiring.jpg](diy-companion-wiring.jpg).
+Wiring is in [rak-repeater-wiring.jpg](rak-repeater-wiring.jpg). The build order is in [CONSTRUCTION.md](CONSTRUCTION.md). The handheld companion is in [COMPANION-CONSTRUCTION.md](COMPANION-CONSTRUCTION.md), with its parts in [COMPANION-BOM.md](COMPANION-BOM.md) and its wiring in [diy-companion-wiring.jpg](diy-companion-wiring.jpg).
 
 ## Operating point
 
