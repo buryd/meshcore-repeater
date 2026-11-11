@@ -4,7 +4,7 @@ A weatherproof 915 MHz MeshCore repeater for the US and Canada. The radio is the
 
 The “33 cm” figure is the wavelength, about 910 MHz. The antenna itself is about 35–45 cm tall.
 
-Wiring is in [rak-repeater-wiring.jpg](rak-repeater-wiring.jpg). The build order is in [CONSTRUCTION.md](CONSTRUCTION.md). The Warner Robins plan is in [DEPLOYMENT.md](DEPLOYMENT.md), [DEPLOYMENT.xlsx](DEPLOYMENT.xlsx), [DEPLOYMENT-repeaters.csv](DEPLOYMENT-repeaters.csv), [DEPLOYMENT-plan.csv](DEPLOYMENT-plan.csv), and [warner-robins-deployment.canvas.tsx](warner-robins-deployment.canvas.tsx). The handheld companion is in [COMPANION-CONSTRUCTION.md](COMPANION-CONSTRUCTION.md), with its parts in [COMPANION-BOM.md](COMPANION-BOM.md) and its wiring in [diy-companion-wiring.jpg](diy-companion-wiring.jpg).
+Wiring is in [rak-repeater-wiring.jpg](rak-repeater-wiring.jpg). The build order is in [CONSTRUCTION.md](CONSTRUCTION.md). The Warner Robins plan tables are in [DEPLOYMENT.xlsx](DEPLOYMENT.xlsx). Notes for that plan are in [DEPLOYMENT.md](DEPLOYMENT.md). The Middle Georgia analysis is in [MIDDLE-GEORGIA.xlsx](MIDDLE-GEORGIA.xlsx) and [middle-georgia-mesh-analysis.canvas.tsx](middle-georgia-mesh-analysis.canvas.tsx). The Warner Robins canvas is [warner-robins-deployment.canvas.tsx](warner-robins-deployment.canvas.tsx). The handheld companion is in [COMPANION-CONSTRUCTION.md](COMPANION-CONSTRUCTION.md), with its parts table in [BOM.xlsx](BOM.xlsx) and notes in [COMPANION-BOM.md](COMPANION-BOM.md), and its wiring in [diy-companion-wiring.jpg](diy-companion-wiring.jpg).
 
 ## Operating point
 
@@ -72,21 +72,4 @@ For the first month, read battery voltage from a companion once a week. A restin
 
 ## Bill of materials
 
-Approximate 2026 US prices, about $290 before the mast and ground rod.
-
-| Item | Specification | USD |
-| --- | --- | --- |
-| WisMesh high-power kit | RAK19007, RAK3401, RAK13302 code 001, 915 MHz | 110 |
-| Solar panel | 6 V nominal, 10 W, Voc under 8 V | 22 |
-| CN3791 charger | 1-cell, 4.2 V float, about 2 A | 8 |
-| 18650 cells | Samsung 25R, 2500 mAh, 20 A, unprotected, ×6 | 36 |
-| 1S protection board | 4.2 V chemistry, at least 3 A | 4 |
-| Cell holder | Six cells in parallel | 8 |
-| Thermostats | Closes above 5°C, opens above 45°C, ≥3 A | 6 |
-| Fuses | 3 A inline on the panel, 2 A polyfuse on the radio | 4 |
-| Enclosure | IP67, light color, about 220×170×110 mm | 28 |
-| Entries | PG7 gland and M12 breather, both on the bottom | 6 |
-| Pigtail | 10 cm IPEX to N-female bulkhead, with O-ring | 10 |
-| Antenna | 915 MHz, 5 dBi, N-female, a type listed on the grant | 20 |
-| Install kit | 16 AWG pack leads, 18 AWG panel wire, clamps, tape, desiccant | 28 |
-| **Total** | Before the mast and ground rod | **290** |
+The parts table is in [BOM.xlsx](BOM.xlsx), sheet **Repeater BOM**. Approximate 2026 US prices, about $290 before the mast and ground rod. Markdown cannot hold a spreadsheet.

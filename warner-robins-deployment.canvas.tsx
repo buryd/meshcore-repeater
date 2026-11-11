@@ -15,9 +15,10 @@ export default function WarnerRobinsDeployment() {
 
       <Callout tone="success" title="One change: build the city repeater">
         The pull does not add a repeater in Warner Robins. West and south stay
-        as they are. Build one repeater north of Watson Boulevard, west of the
-        Robins AFB fence, on the Russell Parkway corridor. Antenna above the
-        tree crown. RAK label 001, set tx 16, about 24 dBm, 5 dBi vertical.
+        as they are. Build one repeater between Watson Boulevard and Russell
+        Parkway, west of the Robins AFB fence. Both roads run east-west;
+        Watson is north of Russell. Antenna above the tree crown. RAK label
+        001, set tx 16, about 24 dBm, 5 dBi vertical.
       </Callout>
 
       <H2>Plan</H2>
@@ -54,9 +55,9 @@ export default function WarnerRobinsDeployment() {
             "Place",
             "5.3–6.7 mi from the city, about 400 ft",
             "N4ARY 2.3 mi south of the house",
-            "Russell Parkway, north of Watson, west of the base",
+            "Between Watson Blvd and Russell Pkwy, west of the base",
             "100 Hickory Bend Drive",
-            "Past Russell Parkway",
+            "North of Watson toward Macon",
           ],
           [
             "Radio",
